@@ -10,7 +10,7 @@ class Alumno:
         self.nota = nota
 
     def esAprobatorio(self):
-        if self.nota >= 6:
+        if self.nota >= 60:
             print("Aprobado")
         else:
             print("Reprobado")
